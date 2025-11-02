@@ -2,7 +2,7 @@
 $servername = "localhost";   // Local server
 $username   = "root";        // Default XAMPP user
 $password   = "";            // Default XAMPP password is empty
-$dbname     = "zamansoft_db";
+$dbname     = "softbd_db";
 
 // Connection create
 $conn = new mysqli($servername, $username, $password, $dbname);
